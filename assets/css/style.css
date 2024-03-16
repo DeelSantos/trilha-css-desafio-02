@@ -1,0 +1,154 @@
+/***************header******************/
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-itens1, .flex-itens2, .flex-item3 {
+    padding: 20px;
+}
+
+
+.flex-itens2 {
+    align-items: center;
+}
+
+#search {
+    border: solid 1px silver;
+    width: 300px;
+    height: 25px;
+}
+
+/*****************Main******************/
+.principal {
+    background-color: #f9f9f9;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 140%;
+    
+}
+
+.fig-caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+.secao-botoes {
+    padding: 1rem 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    
+}
+
+#item2 {
+    flex-grow: 1;
+}
+
+#item3 {
+    flex-grow: 1;
+} 
+#item4 {
+    flex-grow: 1;
+    flex-wrap: wrap;
+} 
+#item5 {
+    flex-grow: 1;
+} 
+
+#item6 {
+    flex-grow: 1;
+} 
+
+.inscrever {
+    background-color: red;
+    color: white;
+    padding: 0.5rem 1.8rem;
+    border: transparent;
+}
+
+.visualizacoes {
+    display: flex;
+    
+}
+
+.visualizacoes p {
+    margin: 0 0.5rem 1rem 0;
+    font-weight: bold;
+}
+
+
+li {
+    list-style: none;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.paragrafo {
+    width: 45%;
+}
+
+
+
+.container-lista-videos {
+    display:flex;
+    width: 380px;
+    height: 1024px;
+    /* background-color: rgba(0, 0, 255, 0.201); */
+    margin: 20px;
+    padding: 20px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    flex-flow: row wrap;
+
+
+}
+
+.item-video{
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item-texto{
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#titulo-video-lista{
+    font-size: 13px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#descricao-video-lista{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#texto-descritivo{
+    text-align: left;
+}
+    
+    
